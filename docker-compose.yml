@@ -1,0 +1,9 @@
+version: '2'
+services:
+  urlos:
+    image: urlos/urlos
+    volumes:
+      - /data/urlos:/data/urlos
+    ports:
+      - "9969:9969"
+    restart: always
