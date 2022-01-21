@@ -5,5 +5,5 @@ services:
     volumes:
       - /data/urlos:/data/urlos
     ports:
-      - "9969:9969"
+      - "9966:9966"
     restart: always
